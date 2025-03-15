@@ -1,0 +1,183 @@
+  /* General Container */
+  .container {
+    display: flex;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe6f2; /* Soft baby pink background */
+  }
+
+  /* Quote Slideshow */
+  .quote-slideshow, .bottom-quote-slideshow {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #333333; /* Dark text for contrast */
+    background-color: #ffd1e8; /* Light pink */
+    padding: 15px;
+    border-radius: 8px;
+    width: 1700px;
+    height: 100px;
+    margin: 20px 0;
+  }
+
+  /* Content Layout */
+  .content {
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* Sticky Notes Section */
+  .sticky-notes {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: 2.5px solid #ffaad4; /* Pink border */
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffe1ec; /* Light pink background */
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  .sticky-notes h3 {
+    margin: 0 0 10px 0;
+    color: #333333;
+  }
+
+  .sticky-note {
+    background-color: #ffaad4; /* Baby pink for sticky notes */
+    border-radius: 8px;
+    font-size:1.25em;
+    padding: 10px;
+    width: 150px;
+  }
+
+  /* Notes Navigation */
+  .notes-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Habits Section */
+  .habits-section {
+    position: relative;
+    font-size:1.25em;
+    flex-basis: 75%;
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 0 20px;
+    text-align: center;
+    background-color: #ffe6f2; /* Soft baby pink */
+    padding: 35px;
+    border: 2.5px solid #ffb6c1; /* Light pink border */
+  }
+
+  /* Habit Options */
+  .habit-options {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .habit-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ff91bb; /* Pink border */
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+    background-color: #ffe6f2; /* Baby pink background */
+    transition: transform 0.2s ease;
+  }
+
+  .habit-option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+
+  .habit-option:hover {
+    transform: scale(1.05);
+  }
+
+  .habit-option.selected {
+    border-color: #ff91bb;
+    background-color: #ffe6f2;
+  }
+
+  /* Streak Section */
+  .streak-section {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+  }
+
+  .streak-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffd1e8; /* Soft pink background for circle */
+    position: relative;
+    overflow: hidden;
+  }
+
+  .streak-progress {
+    width: 100%;
+    height: 100%;
+    background-color: #ffb6c1; /* Baby pink progress color */
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .streak-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Save Button */
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffb6c1; /* Baby pink button */
+    color: #e215db; /* Dark pink text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .save-button:hover {
+    background-color: #ff91bb; /* Darker pink on hover */
+  }
+
+  .streak-section button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff91bb; /* Darker pink for visibility */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .streak-section button:hover {
+    background-color: #ff6fa1; /* Even darker pink on hover */
+  }

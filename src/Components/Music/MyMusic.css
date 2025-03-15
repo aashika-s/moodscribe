@@ -1,0 +1,52 @@
+/* For background video */
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Center content */
+  .music-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Overlay for readability */
+  }
+  
+  /* Mood text styling */
+  .mood-text {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Sour Gummy;
+  }
+  
+  /* Button styling */
+  .fetch-button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(143, 34, 89); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .fetch-button:hover {
+    background-color: rgb(199, 68, 133) ;
+  }
+  

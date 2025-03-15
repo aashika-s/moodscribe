@@ -1,0 +1,97 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    justify-content: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.4); /* Overlay for readability */
+
+}
+
+.greeting {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family:'Sour Gummy';
+}
+
+.mood-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.mood-button {
+    display: flex;
+    flex-direction: column; /* Stack image and label */
+    align-items: center; /* Center the content */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s; /* Smooth lift effect */
+}
+
+.mood-button:hover {
+    transform: scale(1.3); /* Slightly increase size on hover */
+}
+
+.mood-image {
+    width: 60px; /* Set the width of the image */
+    height: 60px; /* Set the height of the image */
+    border-radius: 50%; /* Circular images */
+    background-color: #fdf5f5; /* Light background for button */
+    display: flex;
+    justify-content: center; /* Center the image inside the button */
+    align-items: center; /* Center the image inside the button */
+    padding: 5px; /* Space around the image */
+}
+
+.mood-label {
+    margin-top: 5px;
+    font-size: 20px; /* Adjust font size for label */
+    color: #ffffff;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(243, 99, 147);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgb(252, 145, 181);
+}
+
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none; /* Prevents video from capturing clicks */
+}

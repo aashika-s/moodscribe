@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* This aligns items vertically centered */
+    color: black;
+    margin: 40px 120px;
+    margin-top: 20px; 
+    height: 100px; /* Set a fixed height for the header */
+}
+
+.menu {
+    display: flex; 
+    gap: 20px; 
+}
+
+.FAQ,
+.home,
+.about-us {
+    background-color: rgb(243, 99, 147);
+    color: lightgoldenrodyellow;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center; /* Align logo items vertically */
+}
+
+/* Title size adjustment */
+.title-name {
+    font-size: 3em; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: rgb(243, 99, 147); /* Match your theme */
+    line-height: 1; /* Adjust line height to control spacing */
+}

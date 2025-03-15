@@ -1,0 +1,109 @@
+.signup-form {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    width: 500px;
+    height: 670px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+   
+  }
+  
+  .login-heading {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Enables absolute positioning of the signup button */
+  }
+  
+  .signup-button {
+    position: absolute;
+    right: 0px;
+    top:1px;
+    margin-top: 0px;
+    margin-right: 0;
+    background-color :rgb(243, 99, 147);
+    color:lightgoldenrodyellow;
+    font-weight: bolder;
+    font-size:20px;
+    padding:20px 40px 20px 40px;
+    border:0;
+    border-radius: 30px;
+  }
+  
+  .login-name {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: 'Bree Serif';
+  }
+  
+  .forms {
+    margin-top: 30px;
+  }
+  
+  .forgot-pass {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .login-button
+  {
+    background-color :rgb(243, 99, 147) ;
+    color:lightgoldenrodyellow;
+    font-weight: bolder;
+    font-size:25px;
+    padding:20px 40px 20px 40px;
+    border:0;
+    border-radius: 30px;
+    margin-top: 0;
+    
+  }
+
+  .forms {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 221, 227);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.forms img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+  input
+  {
+    font-size: 1.1em; /* Increase input font size for readability */
+    padding: 12px 15px; /* Increase input padding for better feel */
+    width: 80%; 
+    background: transparent;
+    border:0;
+  }
+
+  .head
+  {
+
+    height: 750px;
+    padding: 40px;
+    background-color:rgb(243, 99, 147) ;
+
+  }
+
+  .form
+  {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 20px;
+  }

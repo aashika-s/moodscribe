@@ -1,0 +1,166 @@
+.journal-page {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    padding: 20px;
+    height: 800px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+}
+
+.sidebar-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(243, 99, 147);
+    text-align: center;
+    min-height: 150px;
+    max-height: 150px;
+    overflow-y: scroll;
+    border-radius: 20px;
+    font-size: x-large;
+    color: lightgoldenrodyellow;
+    border: 10px solid lightgoldenrodyellow;
+}
+
+
+.journal-content {
+    flex: 1;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    height: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+textarea {
+    width: 98%;
+    height: 60%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: rgb(254, 211, 218);
+    border: 1px solid palevioletred;
+}
+
+.image-upload {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-preview img {
+    margin-right: 10px;
+    max-height: 100px;
+}
+
+.text-options {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-name
+{
+    font-size: 3em;
+    color: rgb(243, 99, 147);
+}
+
+.date
+{
+    background-color:rgb(243, 99, 147);
+    color:lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.new-entry
+{
+    color: lightgoldenrodyellow;
+    font-size: xx-large;
+    background: transparent;
+    border: 0;
+    font-weight: bold;
+
+}
+
+.image-label
+{
+    margin: 5px;
+}
+
+.past-entries-button
+{
+    color: lightgoldenrodyellow;
+    font-size: xx-large;
+    background: transparent;
+    border: 0;
+    font-weight: bold;
+}
+
+.past-entries
+{
+    background-color: rgb(253, 210, 217);
+   
+}
+
+.preview-text
+{
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.save-button-container
+{
+    text-align: right;
+    margin-top: -60px;
+}
+
+.save-button
+{
+    background-color :rgb(243, 99, 147) ;
+    color:bisque;
+    font-weight: bolder;
+    font-size:20px;
+    padding:20px 40px 20px 40px;
+    border:0;
+    border-radius: 30px;
+}
+
+.past-entries {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(253, 210, 217);
+    border-radius: 10px;
+    color: rgb(243, 99, 147);
+}
+
+input[type="color"] {
+    width: 50px; /* Adjust the width as needed */
+    height: 30px; /* Optional: adjust the height */
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Adds spacing for better alignment */
+}
