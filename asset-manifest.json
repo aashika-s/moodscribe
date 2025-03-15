@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/moodscribe/static/css/main.48ed47ae.css",
+    "main.js": "/moodscribe/static/js/main.0796b3ba.js",
+    "static/js/488.9d97ac5d.chunk.js": "/moodscribe/static/js/488.9d97ac5d.chunk.js",
+    "static/media/video1.mp4": "/moodscribe/static/media/video1.5485c9c47adc1c3b2566.mp4",
+    "static/media/video4.mp4": "/moodscribe/static/media/video4.5d6ace3c929402cd1a8d.mp4",
+    "static/media/graphs.gif": "/moodscribe/static/media/graphs.36dd1c0280ad1310e4c8.gif",
+    "static/media/journalling.gif": "/moodscribe/static/media/journalling.7b6883f45bc464e2f04d.gif",
+    "static/media/emo.gif": "/moodscribe/static/media/emo.8023c1d3b7bdd335a8d7.gif",
+    "static/media/th.jpeg": "/moodscribe/static/media/th.7e3bf583a3b5261cf557.jpeg",
+    "static/media/calm.jpeg": "/moodscribe/static/media/calm.75944907fe2d5f014815.jpeg",
+    "static/media/logoo.png": "/moodscribe/static/media/logoo.2c1fe50497648ff3efbe.png",
+    "static/media/average.jpeg": "/moodscribe/static/media/average.c0949ed9e5a4fe29af87.jpeg",
+    "static/media/excited.png": "/moodscribe/static/media/excited.c3480fe0bbffa1ca540f.png",
+    "static/media/book.jpeg": "/moodscribe/static/media/book.948921bb51ba721291c3.jpeg",
+    "static/media/full.jpeg": "/moodscribe/static/media/full.275e179c99cb50bac16f.jpeg",
+    "static/media/distracted.jpeg": "/moodscribe/static/media/distracted.a470e6cee406389b32aa.jpeg",
+    "static/media/anger.png": "/moodscribe/static/media/anger.34c8d374db8bd99bd23d.png",
+    "static/media/happiness.png": "/moodscribe/static/media/happiness.a2befa9b894118531e0e.png",
+    "static/media/poor.jpeg": "/moodscribe/static/media/poor.4ed13952d2ea224b105c.jpeg",
+    "static/media/embarrassed.png": "/moodscribe/static/media/embarrassed.aacdb13af45a9f63f585.png",
+    "static/media/moderate.png": "/moodscribe/static/media/moderate.b484c62080fa8ee824d2.png",
+    "static/media/jealous.png": "/moodscribe/static/media/jealous.95217c4cc54f0be44f5b.png",
+    "static/media/sadness.png": "/moodscribe/static/media/sadness.b12076d773eb4df03c70.png",
+    "static/media/sleepy.png": "/moodscribe/static/media/sleepy.0ca4c2d53b0ec1dd8939.png",
+    "static/media/excellent.jpeg": "/moodscribe/static/media/excellent.45bbf1c5bd4860c76b43.jpeg",
+    "static/media/tensed.png": "/moodscribe/static/media/tensed.072190d96cc8e15b8373.png",
+    "static/media/love.png": "/moodscribe/static/media/love.6e788625faa147326de7.png",
+    "static/media/focused.jpeg": "/moodscribe/static/media/focused.d57e9115cdbdae84985c.jpeg",
+    "static/media/bored.png": "/moodscribe/static/media/bored.2cda038c08a632268fc0.png",
+    "index.html": "/moodscribe/index.html",
+    "main.48ed47ae.css.map": "/moodscribe/static/css/main.48ed47ae.css.map",
+    "main.0796b3ba.js.map": "/moodscribe/static/js/main.0796b3ba.js.map",
+    "488.9d97ac5d.chunk.js.map": "/moodscribe/static/js/488.9d97ac5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48ed47ae.css",
+    "static/js/main.0796b3ba.js"
+  ]
+}
