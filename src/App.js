@@ -173,7 +173,7 @@ const App = () => {
     }, []);
 
     return (
-        <Router>
+        <Router basename="/moodscribe">
             <div className="App">
                 <Routes>
                     {/* Routes for pages without shared components */}
