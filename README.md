@@ -1,3 +1,3 @@
-<<<<<<< HEAD
+
 # moodscribe
-=======
+MoodScribe is a full-stack mood-tracking and journaling web application built using the MERN stack (MongoDB, Express.js, React, and Node.js). It allows users to track their daily emotions, maintain a personal journal, and visualize mood patterns over time. The platform includes multiple features such as a Mood Chart, where users can see trends in their emotions, a Shared Journal for collaborative writing, and a My Music page that recommends music based on the user’s mood. Users can also log daily habits to track their well-being. The design is centered around an intuitive and engaging user experience, incorporating dynamic UI elements that reflect the chosen mood (e.g., background themes that change based on emotions). MoodScribe aims to provide a personal and interactive way to understand emotional well-being while fostering self-expression through journaling and music.
